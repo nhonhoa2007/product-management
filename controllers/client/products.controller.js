@@ -1,4 +1,5 @@
 const Product = require("../../models/product.model")
+//GET /products
 module.exports.index = async (req, res) => {
     // Dữ liệu mẫu lấy từ dummyjson.com
     const products = await Product.find({
