@@ -103,3 +103,43 @@ body {
     margin-top: 6px;
     margin-bottom: 0;
 }
+
+/* ================================
+   Admin Table Styles
+================================ */
+.table {
+    background-color: #ffffff;
+    margin-bottom: 0;
+}
+
+.table th {
+    vertical-align: middle;
+    background-color: #f8f9fa;
+    border-top: none;
+    font-weight: 600;
+    color: #495057;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.table img {
+    border-radius: 4px;
+    object-fit: cover;
+    border: 1px solid #e9ecef;
+}
+
+.table input[name="position"] {
+    text-align: center;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 4px 6px;
+}
+
+.table .badge {
+    font-size: 85%;
+    padding: 6px 10px;
+    cursor: pointer;
+    font-weight: 500;
+}

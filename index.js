@@ -2,7 +2,7 @@ require('dotenv').config();
 const express = require("express");
 
 
-const route = require("./routes/client/index.routes");
+const route = require("./routes/client/index.route");
 const adminRoutes = require("./routes/admin/index.route");
 const systemConfig = require("./config/system");
 
