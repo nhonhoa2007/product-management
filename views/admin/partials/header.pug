@@ -1,0 +1,11 @@
+header.header
+    .container-fluid
+        .row.align-items-center
+            .col-3
+                .inner-logo
+                    a(href=`${prefixAdmin}/dashboard`)
+                        span.font-weight-bold.text-primary ADMIN PANEL
+            .col-9
+                .text-right
+                    a(href="/", target="_blank", class="btn btn-outline-info btn-sm mr-2") Xem trang chủ
+                    a(href=`${prefixAdmin}/auth/logout`, class="btn btn-danger btn-sm") Đăng xuất

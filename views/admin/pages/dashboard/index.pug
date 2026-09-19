@@ -1,1 +1,42 @@
-h1 dashboard
+extends ../../layouts/default.pug
+
+block main
+    h1.mb-4 #{pageTitle}
+
+    .row
+        .col-xl-3.col-md-6.mb-4
+            .card.card-stat.border-left-primary.shadow-sm
+                .card-body
+                    .text-xs.font-weight-bold.text-primary.text-uppercase.mb-1 Tổng sản phẩm
+                    .stat-number.text-dark 10
+                    small.text-muted Trong cơ sở dữ liệu
+
+        .col-xl-3.col-md-6.mb-4
+            .card.card-stat.border-left-success.shadow-sm
+                .card-body
+                    .text-xs.font-weight-bold.text-success.text-uppercase.mb-1 Đang hoạt động
+                    .stat-number.text-success 10
+                    small.text-muted Trạng thái Active
+
+        .col-xl-3.col-md-6.mb-4
+            .card.card-stat.border-left-warning.shadow-sm
+                .card-body
+                    .text-xs.font-weight-bold.text-warning.text-uppercase.mb-1 Dừng hoạt động
+                    .stat-number.text-warning 0
+                    small.text-muted Trạng thái Inactive
+
+        .col-xl-3.col-md-6.mb-4
+            .card.card-stat.border-left-danger.shadow-sm
+                .card-body
+                    .text-xs.font-weight-bold.text-danger.text-uppercase.mb-1 Đã xóa
+                    .stat-number.text-danger 0
+                    small.text-muted Trong thùng rác
+
+    .row.mt-3
+        .col-12
+            .card.shadow-sm
+                .card-header.bg-white.py-3
+                    h6.m-0.font-weight-bold.text-primary Chào mừng đến với Trang quản trị!
+                .card-body
+                    p Hệ thống quản lý sản phẩm (Product Management) phiên bản Express 5 + MongoDB.
+                    p Sử dụng menu bên trái để điều hướng đến các tính năng quản lý sản phẩm, danh mục và đơn hàng.
