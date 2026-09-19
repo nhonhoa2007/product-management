@@ -1,9 +1,7 @@
+const homeRoutes = require('./home.route');
+const productRoutes = require('./product.route');
 
-module.exports =(app)=>{
-    app.get("/", (req, res) => {
-        res.render("client/pages/home/index")
-    });
-    app.get("/products", (req, res) => {
-        res.render("client/pages/products/index")
-    });
+module.exports = (app) =>{
+    app.use('/', homeRoutes);
+    app.use('/products', productRoutes);
 }

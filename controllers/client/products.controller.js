@@ -1,3 +1,18 @@
-module.exports.index =(req, res) => {
-    res.render("client/pages/products/index");
-}
+const Product = require("../../models/product.model")
+module.exports.index = async (req, res) => {
+    // Dữ liệu mẫu lấy từ dummyjson.com
+    const products = await Product.find({
+        status: "active",
+        deleted: false
+    })
+
+    const newProducts = products.map(product => {
+        product.priceNew = product.price * (1 - product.discountPercentage / 100).toFixed(0)
+        return product
+    })
+    console.log(newProducts)
+    res.render("client/pages/products/index", {
+        pageTitle: "Danh sách sản phẩm",
+        products: products
+    });
+};

@@ -1,0 +1,182 @@
+/* ================================
+   Base & Reset
+================================ */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #333333;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* ================================
+   Header Component
+================================ */
+.header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #eaeaea;
+  padding: 12px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.header .inner-logo a {
+  display: inline-flex;
+  align-items: center;
+}
+
+.header .inner-logo img {
+  max-height: 44px;
+  width: auto;
+  object-fit: contain;
+}
+
+.header .inner-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header .inner-menu ul li {
+  margin-left: 24px;
+}
+
+.header .inner-menu ul li a {
+  font-weight: 500;
+  font-size: 15px;
+  color: #495057;
+  padding: 6px 0;
+  position: relative;
+}
+
+.header .inner-menu ul li a:hover {
+  color: #007bff;
+}
+
+/* ================================
+   Main Layout & Content
+================================ */
+.main-content {
+  flex: 1;
+  padding: 32px 0;
+}
+
+.box-head {
+  margin-bottom: 24px;
+  border-bottom: 2px solid #007bff;
+  display: inline-block;
+  padding-bottom: 6px;
+}
+
+.box-head .inner-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #212529;
+  margin: 0;
+}
+
+/* ================================
+   Product Card Component
+================================ */
+.product-item {
+  background: #ffffff;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 24px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.product-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.product-item .inner-image {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background-color: #f1f3f5;
+}
+
+.product-item .inner-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.product-item:hover .inner-image img {
+  transform: scale(1.05);
+}
+
+.product-item .inner-content {
+  padding: 16px;
+}
+
+.product-item .inner-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.product-item .inner-price-new {
+  font-size: 18px;
+  font-weight: 700;
+  color: #e03131;
+}
+
+.product-item .inner-price-old {
+  font-size: 14px;
+  text-decoration: line-through;
+  color: #868e96;
+  margin-left: 8px;
+}
+
+.product-item .inner-discount {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: #ffe3e3;
+  color: #e03131;
+  padding: 2px 6px;
+  border-radius: 4px;
+  margin-left: 8px;
+}
+
+/* ================================
+   Footer Component
+================================ */
+.footer {
+  background-color: #212529;
+  color: #adb5bd;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+  border-top: 1px solid #343a40;
+  margin-top: auto;
+}

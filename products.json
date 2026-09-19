@@ -1,0 +1,112 @@
+[
+  {
+    "title": "iPhone 9",
+    "description": "An apple mobile which is nothing like apple",
+    "price": 549,
+    "discountPercentage": 12.96,
+    "stock": 94,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/thumbnail.webp",
+    "status": "active",
+    "position": 1,
+    "deleted": false
+  },
+  {
+    "title": "iPhone X",
+    "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip",
+    "price": 899,
+    "discountPercentage": 17.94,
+    "stock": 34,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/thumbnail.webp",
+    "status": "active",
+    "position": 2,
+    "deleted": false
+  },
+  {
+    "title": "Samsung Universe 9",
+    "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
+    "price": 1249,
+    "discountPercentage": 15.46,
+    "stock": 36,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/thumbnail.webp",
+    "status": "active",
+    "position": 3,
+    "deleted": false
+  },
+  {
+    "title": "OPPO F19 Pro Plus",
+    "description": "OPPO F19 Pro+ 5G is powered by an octa-core MediaTek Dimensity 800U processor",
+    "price": 280,
+    "discountPercentage": 17.91,
+    "stock": 123,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/thumbnail.webp",
+    "status": "active",
+    "position": 4,
+    "deleted": false
+  },
+  {
+    "title": "Huawei P30",
+    "description": "Huawei re-announcement of the P30 Pro New Edition brings its full Google Mobile Services",
+    "price": 499,
+    "discountPercentage": 10.58,
+    "stock": 32,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/thumbnail.webp",
+    "status": "active",
+    "position": 5,
+    "deleted": false
+  },
+  {
+    "title": "iPhone 13 Pro",
+    "description": "A cutting-edge smartphone with a powerful camera system and ProMotion display",
+    "price": 1099,
+    "discountPercentage": 9.37,
+    "stock": 56,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/thumbnail.webp",
+    "status": "active",
+    "position": 6,
+    "deleted": false
+  },
+  {
+    "title": "Realme C35",
+    "description": "A budget-friendly smartphone with a focus on essential everyday features",
+    "price": 149,
+    "discountPercentage": 15.3,
+    "stock": 48,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/thumbnail.webp",
+    "status": "active",
+    "position": 7,
+    "deleted": false
+  },
+  {
+    "title": "Realme XT",
+    "description": "Equipped with advanced camera sensors, delivering high-quality photos and videos",
+    "price": 349,
+    "discountPercentage": 11.51,
+    "stock": 80,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/thumbnail.webp",
+    "status": "active",
+    "position": 8,
+    "deleted": false
+  },
+  {
+    "title": "Samsung Galaxy S8",
+    "description": "Premium smartphone with an Infinity Display, offering a stunning visual experience",
+    "price": 499,
+    "discountPercentage": 19.45,
+    "stock": 50,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s8/thumbnail.webp",
+    "status": "active",
+    "position": 9,
+    "deleted": false
+  },
+  {
+    "title": "Vivo X21",
+    "description": "In-display fingerprint sensor, high-resolution display, and advanced camera capabilities",
+    "price": 499,
+    "discountPercentage": 17.41,
+    "stock": 75,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/vivo-x21/thumbnail.webp",
+    "status": "active",
+    "position": 10,
+    "deleted": false
+  }
+]
