@@ -1,6 +1,7 @@
 extends ../../layouts/default.pug
 include ../../mixins/filter-status.pug
 include ../../mixins/search.pug
+include ../../mixins/pagination.pug
 
 block main
     h1.mb-4 #{pageTitle}
@@ -68,16 +69,5 @@ block main
                                     button(class="btn btn-warning btn-sm mr-1") Sửa
                                     button(class="btn btn-danger btn-sm") Xóa
 
-    //- Phân trang mẫu (Pagination)
-    nav
-        ul.pagination.justify-content-center
-            li.page-item.disabled
-                button.page-link Trang trước
-            li.page-item.active
-                button.page-link 1
-            li.page-item
-                button.page-link 2
-            li.page-item
-                button.page-link 3
-            li.page-item
-                button.page-link Kế tiếp
+    //- Phân trang tự động
+    +pagination(pagination)

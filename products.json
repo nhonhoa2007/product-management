@@ -8,7 +8,7 @@
     "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/thumbnail.webp",
     "status": "active",
     "position": 1,
-    "deleted": false
+    "deleted": true
   },
   {
     "title": "iPhone X",
@@ -17,7 +17,7 @@
     "discountPercentage": 17.94,
     "stock": 34,
     "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/thumbnail.webp",
-    "status": "active",
+    "status": "inactive",
     "position": 2,
     "deleted": false
   },
@@ -39,9 +39,9 @@
     "discountPercentage": 17.91,
     "stock": 123,
     "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/thumbnail.webp",
-    "status": "active",
+    "status": "inactive",
     "position": 4,
-    "deleted": false
+    "deleted": true
   },
   {
     "title": "Huawei P30",
@@ -107,6 +107,116 @@
     "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/vivo-x21/thumbnail.webp",
     "status": "active",
     "position": 10,
+    "deleted": false
+  },
+  {
+    "title": "Apple MacBook Pro 14 Inch",
+    "description": "The MacBook Pro 14 Inch in Space Grey is a powerful and sleek laptop, featuring Apple M1 Pro chip for exceptional performance.",
+    "price": 1999,
+    "discountPercentage": 4.69,
+    "stock": 24,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp",
+    "status": "active",
+    "position": 11,
+    "deleted": false
+  },
+  {
+    "title": "Asus Zenbook Pro Dual Screen",
+    "description": "The Asus Zenbook Pro Dual Screen Laptop is a high-performance device with dual screens for creative professionals.",
+    "price": 1799,
+    "discountPercentage": 11.14,
+    "stock": 45,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp",
+    "status": "active",
+    "position": 12,
+    "deleted": false
+  },
+  {
+    "title": "Huawei Matebook X Pro",
+    "description": "The Huawei Matebook X Pro is a slim and stylish laptop with a high-resolution touchscreen display.",
+    "price": 1399,
+    "discountPercentage": 9.38,
+    "stock": 75,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp",
+    "status": "inactive",
+    "position": 13,
+    "deleted": false
+  },
+  {
+    "title": "Lenovo Yoga 920",
+    "description": "The Lenovo Yoga 920 is a 2-in-1 convertible laptop with a flexible hinge, allowing versatility and portability.",
+    "price": 1099,
+    "discountPercentage": 6.55,
+    "stock": 40,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp",
+    "status": "active",
+    "position": 14,
+    "deleted": false
+  },
+  {
+    "title": "New DELL XPS 13 9300",
+    "description": "The New DELL XPS 13 9300 Laptop is a compact and powerful device with InfinityEdge display.",
+    "price": 1499,
+    "discountPercentage": 11.89,
+    "stock": 74,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp",
+    "status": "inactive",
+    "position": 15,
+    "deleted": false
+  },
+  {
+    "title": "iPad Mini 2021 Starlight",
+    "description": "The iPad Mini 2021 in Starlight features a stunning Retina display and powerful A-series chip.",
+    "price": 499,
+    "discountPercentage": 3.64,
+    "stock": 47,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/tablets/ipad-mini-2021-starlight/thumbnail.webp",
+    "status": "active",
+    "position": 16,
+    "deleted": false
+  },
+  {
+    "title": "Samsung Galaxy Tab S8 Plus",
+    "description": "High-performance Android tablet with a large AMOLED display, powerful processor, and S Pen support.",
+    "price": 599,
+    "discountPercentage": 13.31,
+    "stock": 62,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/thumbnail.webp",
+    "status": "active",
+    "position": 17,
+    "deleted": false
+  },
+  {
+    "title": "Samsung Galaxy Tab White",
+    "description": "A sleek and versatile Android tablet with vibrant display and long-lasting battery.",
+    "price": 349,
+    "discountPercentage": 18.2,
+    "stock": 92,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-white/thumbnail.webp",
+    "status": "inactive",
+    "position": 18,
+    "deleted": false
+  },
+  {
+    "title": "iPhone 6",
+    "description": "The iPhone 6 is a stylish and capable smartphone with a larger display and improved performance.",
+    "price": 299,
+    "discountPercentage": 6.69,
+    "stock": 60,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/thumbnail.webp",
+    "status": "active",
+    "position": 19,
+    "deleted": false
+  },
+  {
+    "title": "Vivo V9",
+    "description": "The Vivo V9 is a smartphone known for its sleek design, notch display, and dual-camera setup.",
+    "price": 299,
+    "discountPercentage": 17.67,
+    "stock": 82,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/thumbnail.webp",
+    "status": "inactive",
+    "position": 20,
     "deleted": false
   }
 ]
