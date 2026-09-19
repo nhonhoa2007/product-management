@@ -4,7 +4,7 @@ const Product = require("../../models/product.model");
 //GET /admin/products
 module.exports.index = async (req, res) => {
     //console.log(req.query.status);
-
+    //filter base on status
     let filterStatus = [
         {
             name: "All",
@@ -38,6 +38,13 @@ module.exports.index = async (req, res) => {
             }
         })
     }
+    //search base on keyword
+
+    const regex = new RegExp(req.query.keyword, "i");
+    if (regex) {
+        find.title = regex;
+    }
+
     const products = await Product.find(find)
 
     //console.log(products)
